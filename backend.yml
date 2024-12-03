@@ -140,6 +140,7 @@ Outputs:
     Description: "Name of the DynamoDB Table"
     Value: !Ref RoomsTable
 
+    
   AppRunnerServiceUrl:
     Description: "URL of the App Runner Service"
     Value: !GetAtt AppRunnerService.ServiceUrl
